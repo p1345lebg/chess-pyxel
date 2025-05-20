@@ -75,6 +75,8 @@ class Board:
                     self.moves = piece.get_moves()
                     return
 
+            self.moves = []
+
 
     def draw(self):
         for i in range(self.width):
